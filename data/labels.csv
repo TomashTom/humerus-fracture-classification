@@ -1,0 +1,10 @@
+X,y,reiksme
+examples/negative/1/image1.png,0,lūžio nėra
+examples/negative/1/image2.png,0,lūžio nėra
+examples/negative/2/image1.png,0,lūžio nėra
+examples/negative/2/image2.png,0,lūžio nėra
+examples/positive/1/image1.png,1,lūžis
+examples/positive/1/image2.png,1,lūžis
+examples/positive/2/image1.png,1,lūžis
+examples/positive/2/image2.png,1,lūžis
+examples/positive/2/image3.png,1,lūžis
