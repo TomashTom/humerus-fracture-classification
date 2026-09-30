@@ -49,6 +49,3 @@ Pavyzdys:
 - `YOLOv8` – lūžio lokalizavimas;
 - `Faster R-CNN` – papildomas lokalizavimo modelis palyginimui.
 
-## Duomenų privatumas
-
-Viešoje saugykloje pateikiamos tik anonimizuotos ir teisėtai naudojamos rentgenogramos. Pacientą identifikuojanti informacija nesaugoma.
