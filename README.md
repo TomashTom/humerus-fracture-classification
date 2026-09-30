@@ -1,4 +1,4 @@
-# Žastikaulio lūžių klasifikavimas
+# Žastikaulio lūžių klasifikavimas  - Task 1.2 Description of the project as an end-to-end solution.
 
 Projektas skirtas automatizuotai aptikti ir lokalizuoti žastikaulio lūžius rentgenogramose, naudojant neuroninius tinklus.
 
