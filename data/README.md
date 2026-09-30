@@ -1,6 +1,6 @@
 # Duomenų pavyzdžiai
 
-Šiame kataloge pateikiami žastikaulio lūžių aptikimo ir klasifikavimo užduočių `(X, y)` pavyzdžiai.
+Šiamė pvz. pateikiu žastikaulio lūžių aptikimo ir klasifikavimo užduočių `(X, y)` pavyzdžiai.
 
 - `X` – žastikaulio rentgenograma.
 - `y` – rentgenogramos klasė arba lūžio vietos koordinatės.
