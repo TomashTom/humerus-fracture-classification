@@ -1,0 +1,22 @@
+[
+  {
+    "X": "examples/Negative/1/image1.png",
+    "y": 0,
+    "reiksme": "lūžio nėra"
+  },
+  {
+    "X": "examples/Negative/2/image1.png",
+    "y": 0,
+    "reiksme": "lūžio nėra"
+  },
+  {
+    "X": "examples/positive/1/image1.png",
+    "y": 1,
+    "reiksme": "lūžis"
+  },
+  {
+    "X": "examples/positive/2/image1.png",
+    "y": 1,
+    "reiksme": "lūžis"
+  }
+]
