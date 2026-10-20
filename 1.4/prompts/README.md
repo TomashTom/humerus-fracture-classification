@@ -1,32 +1,31 @@
-
-# DI agento užklausų pavyzdžiai
+# Žastikaulio rentgenogramų analizės DI agentas
 
 Šiame kataloge pateikiami žastikaulio rentgenogramų analizės DI agento užklausų pavyzdžiai.
 
 Agentas veikia kaip vientisas sprendimas:
 
-1. gauna naują žastikaulio rentgenogramą `X`;
+1. gauna žastikaulio rentgenogramą `X`;
 2. patikrina ir paruošia vaizdą;
-3. nustato, ar matomas lūžis;
+3. nustato, ar rentgenogramoje matomas lūžis;
 4. aptikęs lūžį pažymi jo vietą;
-5. paaiškina, kurios vaizdo sritys turėjo įtakos sprendimui;
-6. grąžina struktūrizuotą rezultatą `y`.
+5. nustato preliminarią lūžio anatominę zoną;
+6. pateikia galutinį rezultatą `y`.
 
-Numatomi sistemos komponentai:
+Sistemoje numatoma naudoti:
 
-- `DenseNet161` – lūžio klasifikavimas;
-- `Grad-CAM` – svarbių vaizdo sričių parodymas;
-- `YOLOv8` – lūžio vietos nustatymas;
-- `Faster R-CNN` – papildomas lokalizavimo modelis palyginimui.
+- `DenseNet161` – lūžio klasifikavimui;
+- `Grad-CAM` – svarbioms vaizdo sritims parodyti;
+- `YOLOv8` – lūžio vietai nustatyti;
+- `Faster R-CNN` – lokalizavimo rezultatams palyginti.
 
-## Įvestis ir išvestis
+## Įvestis ir rezultatas
 
 - `X` – žastikaulio rentgenograma.
-- `y` – klasė, lūžio tikimybė, lūžio vietos koordinatės ir trumpas paaiškinimas.
+- `y` – lūžio klasė, tikimybė, vieta ir trumpas paaiškinimas.
 
 Klasės:
 
 - `0` – lūžio nėra;
 - `1` – lūžis nustatytas.
 
-Sistema yra pagalbinė priemonė. Galutinį diagnostinį sprendimą priima gydytojas.
+Agentas yra pagalbinė priemonė. Galutinį diagnostinį sprendimą priima gydytojas.
