@@ -21,3 +21,8 @@ Kataloge `data/` pateikiami rentgenogramų ir jų klasių `(X, y)` pavyzdžiai:
 - `y = 1` – lūžis nustatytas.
 
 Sistema skirta padėti medicinos specialistui, tačiau galutinį diagnostinį sprendimą priima gydytojas.
+
+
+
+## Kas padaryta?
+Savo sistemą pateikiau kaip vieną DI agentą, kuris gauna žastikaulio rentgenogramą, ją išanalizuoja, aptinka galimą lūžį, nustato jo vietą bei anatominę zoną ir pateikia struktūrizuotą rezultatą. Zero-shot variante agentas gauna tik vieną naują rentgenogramą. Few-shot variante prieš naują rentgenogramą jam pateikiami keli žinomi (X,y) pavyzdžiai. Visi promptai, rezultatai ir vaizdai pateikti GitHub saugyklos prompts kataloge.
